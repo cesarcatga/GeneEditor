@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: exoneditor-site
+    runtime: static
+    buildCommand: "echo site pronto"
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: true
