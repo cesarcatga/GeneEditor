@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+
+# Build artifacts
+build/
+dist/
+*.spec.bak
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Frontend dependencies/build
+node_modules/
+frontend/node_modules/
+frontend/dist/
