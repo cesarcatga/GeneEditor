@@ -1,5 +1,11 @@
 services:
   - type: web
+    name: exoneditor-api
+    runtime: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn backend.main:app --host 0.0.0.0 --port $PORT"
+
+  - type: web
     name: exoneditor-site
     runtime: static
     buildCommand: "echo site pronto"
